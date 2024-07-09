@@ -1,0 +1,83 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box ;
+     text-decoration: none;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --Fonte: 'Lato', sans-serif;
+    --cor-background:#202020;
+    --cor-botões: rgb(138, 43, 226);
+    --cor-hover:rgb(180, 18, 185);
+
+}
+
+body{
+    background-image: url(black-texture.jpg);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+.link-bio{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202020;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.link-bio img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.link-bio h1{
+    font-size: 3rem;
+    color: #FFFFFF;
+       
+}
+
+.link-bio h2{
+    font-size: 1rem;
+    color: #FFFFFF;
+       
+}
+
+.link-bio p{
+    margin: 10px 0px 20px 0px ;
+    font-size: 1rem;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    margin: 10px ;
+    font-family: var(--Fonte);
+}
+
+.link-bio a{
+    background: #ffc5b9;
+    color: #ffffffff;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 10px;
+    border-radius: 40px;
+    width: 90%;
+    padding: 20px;
+    transform-style: preserve-3d;
+}
+
+.link-bio a:hover{
+    background: #AC5859;
+}
+
+
